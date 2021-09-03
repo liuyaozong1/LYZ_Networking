@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liuyaozong1/LYZNetworking'
+  s.homepage         = 'https://github.com/liuyaozong1/LYZ_Networking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '648731281@qq.com' => '648731281@qq.com' }
-  s.source           = { :git => 'https://github.com/liuyaozong1/LYZNetworking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liuyaozong1/LYZ_Networking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'LYZNetworking/Classes/**/*'
+  
+  #s..swift-version = '5.0'
   
   # s.resource_bundles = {
   #   'LYZNetworking' => ['LYZNetworking/Assets/*.png']

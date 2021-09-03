@@ -7,6 +7,6 @@
 
 import UIKit
 
-class LYZHttpResponseSerialization: NSObject {
+public class LYZHttpResponseSerialization: NSObject {
 
 }

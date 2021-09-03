@@ -8,12 +8,12 @@
 import UIKit
 
 /// 配置上传参数 的序列化器
-class LYZHttpRequestSerialization: NSObject {
+public class LYZHttpRequestSerialization: NSObject {
     
-    var requestParamUrlStr: String = ""
+    public var requestParamUrlStr: String = ""
     
     //  创建 request
-    func requestWithModel(apiModel: LYZApiModel,parameters: Any?) -> NSMutableURLRequest? {
+    public func requestWithModel(apiModel: LYZApiModel,parameters: Any?) -> NSMutableURLRequest? {
         var urlstr: String = ""
         if let apiDomain = apiModel.apiDomain {
             urlstr.append(apiDomain)

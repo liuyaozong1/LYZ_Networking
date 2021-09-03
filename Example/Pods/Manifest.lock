@@ -1,5 +1,5 @@
 PODS:
-  - LYZNetworking (0.1.0)
+  - LYZNetworking (0.0.1)
 
 DEPENDENCIES:
   - LYZNetworking (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LYZNetworking: 6c8cf5ef4bec6ab45ef343b7caeeb7833906eceb
+  LYZNetworking: 3060193224ddf197267ad453d6ad6913585f9401
 
 PODFILE CHECKSUM: 4aed37fadd7ccfae92acb331af7f3c631de2206f
 

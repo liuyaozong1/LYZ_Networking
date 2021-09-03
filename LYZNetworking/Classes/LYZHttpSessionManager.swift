@@ -7,12 +7,12 @@
 
 import UIKit
 
-class LYZHttpSessionManager: LYZURLSessionManager {
-   static let manager = LYZHttpSessionManager()
+public class LYZHttpSessionManager: LYZURLSessionManager {
+    public  static let manager = LYZHttpSessionManager()
 }
 //请求方法的配置
-extension LYZHttpSessionManager {
-    func load(apiModel: LYZApiModel,parameters: Any) {
+public extension LYZHttpSessionManager {
+    public func load(apiModel: LYZApiModel,parameters: Any) {
         guard let  request = globalConfiguration.requestSerialization.requestWithModel(apiModel: apiModel, parameters: parameters) else {
             return
         }

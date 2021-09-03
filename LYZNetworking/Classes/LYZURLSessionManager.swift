@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LYZURLSessionManager: NSObject {
+public class LYZURLSessionManager: NSObject {
     ///网络请求会话
     public var session: URLSession?
     ///网络请求地址

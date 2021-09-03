@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14F03F2E47AB35960AAB2FC506980C5B /* LYZApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BCC8C4F3C337AAF3250014F27A8C7 /* LYZApiModel.swift */; };
+		17D099A175604FF0BF12EC1C99AA6EE6 /* LYZNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699DE9E5916E48251FB3C380F1F5BDF9 /* LYZNetworking-dummy.m */; };
+		2B14AB1D9EF9A0B42598CDA24416BA0A /* LYZURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D4EAC2786750A2944D93302A09D39 /* LYZURLSessionManager.swift */; };
+		2C6C11894E96217CB20D304EA208376D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		407440D5620528703876B8BBF9AFE410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		409673DFFA2464DFCEFB37B6D9F495D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		60008B109E3AA1C98D5CEC8A5A0D6B4D /* Pods-LYZNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83C3E29DF313A47A79653381B6D6BB0 /* Pods-LYZNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A91730E93E5F21D6DC5B3687BC09C8C /* Pods-LYZNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9962B739FB7D25C3053213CAC625BF4C /* Pods-LYZNetworking_Tests-dummy.m */; };
 		6F681A318ACEB3A3AD58BD15473BAF71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		767BF076F300F928CB3760114738074E /* LYZHttpResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC3C0DA4EA2568656138242183045D /* LYZHttpResponseSerialization.swift */; };
 		87D9E44638749DEF7692987631A8DDDB /* Pods-LYZNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1004FFF951FF8F9E363F31DE920B88E /* Pods-LYZNetworking_Example-dummy.m */; };
+		89D01357FF21B531D6759D64C24A6C3E /* LYZHttpRequestSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF84F46AA648141C07DC8718B18DC7 /* LYZHttpRequestSerialization.swift */; };
 		9013EB34DA676E88967C6480027958D6 /* Pods-LYZNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C848E3BE484A4E56979C951353A30D /* Pods-LYZNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1A4E17426E1F66000FC712B /* LYZHttpRequestSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4E16E26E1F65F00FC712B /* LYZHttpRequestSerialization.swift */; };
-		B1A4E17526E1F66000FC712B /* LYZApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4E16F26E1F65F00FC712B /* LYZApiModel.swift */; };
-		B1A4E17626E1F66000FC712B /* LYZNetWorkingGlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4E17026E1F65F00FC712B /* LYZNetWorkingGlobalConfig.swift */; };
-		B1A4E17726E1F66000FC712B /* LYZHttpSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4E17126E1F66000FC712B /* LYZHttpSessionManager.swift */; };
-		B1A4E17826E1F66000FC712B /* LYZURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4E17226E1F66000FC712B /* LYZURLSessionManager.swift */; };
-		B1A4E17926E1F66000FC712B /* LYZHttpResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4E17326E1F66000FC712B /* LYZHttpResponseSerialization.swift */; };
-		CAF4E4AE119BDE4DFCA882AAAAF3E8A3 /* LYZNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F9159D7C55E262C4974A78BA93D6B6 /* LYZNetworking-dummy.m */; };
-		FD50F0DB693B953A6EC51C7B45CB6063 /* LYZNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF208B1A0D1C26EF876EEDA5537ECA3 /* LYZNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD9BDB968600EC9DA0B7B2114706527 /* LYZNetWorkingGlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289AC0A5273E7EC820E7CD80C91BA7E /* LYZNetWorkingGlobalConfig.swift */; };
+		B5DDBC9304B1D19BF9C0E75F06AFBE9C /* LYZHttpSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115994F95F6A4F12FCB55407D89E7A04 /* LYZHttpSessionManager.swift */; };
+		F45E0F39EF0695C2ED797DB93155FBBC /* LYZNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB810B57512F576186C7A1778FA82BAA /* LYZNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1AAFB5D38890B0A6DA0475848CDA698 /* PBXContainerItemProxy */ = {
+		2725C72C8E293BD545AE8CC16FA5F787 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC4B117BCBDE62B6ADA8EFABE8DA08A8;
 			remoteInfo = LYZNetworking;
 		};
-		CA911D276E4DDD3196E33A4A526BAA1A /* PBXContainerItemProxy */ = {
+		C826C2A164F792411E53CC6424D386BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,47 +42,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D3B61D5B7D266A0511C28E58500FE4 /* LYZNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYZNetworking.modulemap; sourceTree = "<group>"; };
+		076B6D847D07A5E5732B8C5B013AD964 /* LYZNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYZNetworking-Info.plist"; sourceTree = "<group>"; };
 		10C848E3BE484A4E56979C951353A30D /* Pods-LYZNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		115994F95F6A4F12FCB55407D89E7A04 /* LYZHttpSessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYZHttpSessionManager.swift; path = LYZNetworking/Classes/LYZHttpSessionManager.swift; sourceTree = "<group>"; };
 		1822EFF1691A0287718465F75C6B653F /* Pods-LYZNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		291A9BC440789D96177B519084A066AE /* LYZNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZNetworking.release.xcconfig; sourceTree = "<group>"; };
-		32771094E45FCC0357A7C0329D55A4C0 /* LYZNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYZNetworking-Info.plist"; sourceTree = "<group>"; };
+		1AC89B6B52BECD4325590CE67F4C3E09 /* LYZNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZNetworking.release.xcconfig; sourceTree = "<group>"; };
 		3AB4671AA932D13F593C671DD2B26746 /* Pods-LYZNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
 		4D9F05AFA6AB5A2C23D2BD88077007DC /* Pods-LYZNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		53C2DF912663B849FD7CADE06E78C6A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		54EF3490AC08BF407EAEAFF4DA4A929E /* Pods-LYZNetworking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYZNetworking_Tests"; path = Pods_LYZNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A3E50294EA05279405479DF3DC791A /* Pods-LYZNetworking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYZNetworking_Example"; path = Pods_LYZNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680BCC8C4F3C337AAF3250014F27A8C7 /* LYZApiModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYZApiModel.swift; path = LYZNetworking/Classes/LYZApiModel.swift; sourceTree = "<group>"; };
+		699DE9E5916E48251FB3C380F1F5BDF9 /* LYZNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYZNetworking-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		747FEA81E6C425B99F5B65C2F272C854 /* LYZNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZNetworking-prefix.pch"; sourceTree = "<group>"; };
 		74FC6F87673E34A3B92D9F9D443895A4 /* LYZNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYZNetworking; path = LYZNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750D4EAC2786750A2944D93302A09D39 /* LYZURLSessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYZURLSessionManager.swift; path = LYZNetworking/Classes/LYZURLSessionManager.swift; sourceTree = "<group>"; };
+		7636B384B1C49046703681474C4F9346 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7A867D570F90651B7F9FD78FAD1309AA /* Pods-LYZNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		807E9E363B9E0568A7CFA9BAE799C9B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		89C6595B7520ECC1FEE0CED5266BA6B1 /* LYZNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		925A33244C33C7EDD0E66CDA61AA10CA /* Pods-LYZNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZNetworking_Tests.modulemap"; sourceTree = "<group>"; };
 		93A413F8B5F26809FA6FF37581F6376D /* Pods-LYZNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9962B739FB7D25C3053213CAC625BF4C /* Pods-LYZNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C01E184EAA93D13CF0C570D76CC9A31 /* LYZNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYZNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDF84F46AA648141C07DC8718B18DC7 /* LYZHttpRequestSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYZHttpRequestSerialization.swift; path = LYZNetworking/Classes/LYZHttpRequestSerialization.swift; sourceTree = "<group>"; };
 		A1004FFF951FF8F9E363F31DE920B88E /* Pods-LYZNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZNetworking_Example-dummy.m"; sourceTree = "<group>"; };
-		A1F6B1858BA81DC2D977D1916BF21D60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A83C3E29DF313A47A79653381B6D6BB0 /* Pods-LYZNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A85EFA9B71A1AFD518387417D37FFFFD /* Pods-LYZNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYZNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ABABF4F53BDA5B8457ED33E3CE3AF19D /* Pods-LYZNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1A4E16E26E1F65F00FC712B /* LYZHttpRequestSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LYZHttpRequestSerialization.swift; path = LYZNetworking/Classes/LYZHttpRequestSerialization.swift; sourceTree = "<group>"; };
-		B1A4E16F26E1F65F00FC712B /* LYZApiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LYZApiModel.swift; path = LYZNetworking/Classes/LYZApiModel.swift; sourceTree = "<group>"; };
-		B1A4E17026E1F65F00FC712B /* LYZNetWorkingGlobalConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LYZNetWorkingGlobalConfig.swift; path = LYZNetworking/Classes/LYZNetWorkingGlobalConfig.swift; sourceTree = "<group>"; };
-		B1A4E17126E1F66000FC712B /* LYZHttpSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LYZHttpSessionManager.swift; path = LYZNetworking/Classes/LYZHttpSessionManager.swift; sourceTree = "<group>"; };
-		B1A4E17226E1F66000FC712B /* LYZURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LYZURLSessionManager.swift; path = LYZNetworking/Classes/LYZURLSessionManager.swift; sourceTree = "<group>"; };
-		B1A4E17326E1F66000FC712B /* LYZHttpResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LYZHttpResponseSerialization.swift; path = LYZNetworking/Classes/LYZHttpResponseSerialization.swift; sourceTree = "<group>"; };
+		C289AC0A5273E7EC820E7CD80C91BA7E /* LYZNetWorkingGlobalConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYZNetWorkingGlobalConfig.swift; path = LYZNetworking/Classes/LYZNetWorkingGlobalConfig.swift; sourceTree = "<group>"; };
 		C9587C4CFCCF1B97082CE742C9550795 /* Pods-LYZNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		CB810B57512F576186C7A1778FA82BAA /* LYZNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZNetworking-umbrella.h"; sourceTree = "<group>"; };
+		CF7502DB633BD06F5A4E21F4C512146F /* LYZNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		D3E4C796FD8184EDBB4870DEFF7F96F9 /* Pods-LYZNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D8AF82B1BE0DFAB131ADC8A6C7FE45CA /* LYZNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LYZNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7CC3C0DA4EA2568656138242183045D /* LYZHttpResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYZHttpResponseSerialization.swift; path = LYZNetworking/Classes/LYZHttpResponseSerialization.swift; sourceTree = "<group>"; };
 		DD2EA8398DBA5560A4149A665AE41814 /* Pods-LYZNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F3F9159D7C55E262C4974A78BA93D6B6 /* LYZNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYZNetworking-dummy.m"; sourceTree = "<group>"; };
-		F7A4925E80C0FB4CC51638A5696E7069 /* LYZNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZNetworking-prefix.pch"; sourceTree = "<group>"; };
 		F7CBD76A1AABE4671C77DA87B111606B /* Pods-LYZNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F8D514DF53F8AEFF8538E908B9D97EA6 /* Pods-LYZNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZNetworking_Example-Info.plist"; sourceTree = "<group>"; };
-		FCF208B1A0D1C26EF876EEDA5537ECA3 /* LYZNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZNetworking-umbrella.h"; sourceTree = "<group>"; };
+		F9F55CDA5E06BB07B1D80A05028A2EC0 /* LYZNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYZNetworking.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		19064EFCA264D89D6CCF844D51A213C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6C11894E96217CB20D304EA208376D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9510C3F423F98CBB3B4CC9196535306D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,40 +107,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F205B56EA714DF112157A68BDED09F47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				409673DFFA2464DFCEFB37B6D9F495D3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23E9B373812266D76A031B13A255106B /* Pod */ = {
+		0B6E24F0EB926A2AB7B94CD15DB11810 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1F6B1858BA81DC2D977D1916BF21D60 /* LICENSE */,
-				D8AF82B1BE0DFAB131ADC8A6C7FE45CA /* LYZNetworking.podspec */,
-				807E9E363B9E0568A7CFA9BAE799C9B5 /* README.md */,
+				FA1E0AE3782957ADB3078C23C9B5BCF8 /* LYZNetworking */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		563A15B1B2F920205E5C82E75749A811 /* Support Files */ = {
+		4444E3DEADCEF6A1D98F971A31AB7D2F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				01D3B61D5B7D266A0511C28E58500FE4 /* LYZNetworking.modulemap */,
-				F3F9159D7C55E262C4974A78BA93D6B6 /* LYZNetworking-dummy.m */,
-				32771094E45FCC0357A7C0329D55A4C0 /* LYZNetworking-Info.plist */,
-				F7A4925E80C0FB4CC51638A5696E7069 /* LYZNetworking-prefix.pch */,
-				FCF208B1A0D1C26EF876EEDA5537ECA3 /* LYZNetworking-umbrella.h */,
-				89C6595B7520ECC1FEE0CED5266BA6B1 /* LYZNetworking.debug.xcconfig */,
-				291A9BC440789D96177B519084A066AE /* LYZNetworking.release.xcconfig */,
+				F9F55CDA5E06BB07B1D80A05028A2EC0 /* LYZNetworking.modulemap */,
+				699DE9E5916E48251FB3C380F1F5BDF9 /* LYZNetworking-dummy.m */,
+				076B6D847D07A5E5732B8C5B013AD964 /* LYZNetworking-Info.plist */,
+				747FEA81E6C425B99F5B65C2F272C854 /* LYZNetworking-prefix.pch */,
+				CB810B57512F576186C7A1778FA82BAA /* LYZNetworking-umbrella.h */,
+				CF7502DB633BD06F5A4E21F4C512146F /* LYZNetworking.debug.xcconfig */,
+				1AC89B6B52BECD4325590CE67F4C3E09 /* LYZNetworking.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LYZNetworking";
+			sourceTree = "<group>";
+		};
+		4FA631074536681532EE2F65AD6BFEFF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7636B384B1C49046703681474C4F9346 /* LICENSE */,
+				9C01E184EAA93D13CF0C570D76CC9A31 /* LYZNetworking.podspec */,
+				53C2DF912663B849FD7CADE06E78C6A4 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -141,30 +149,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6874748DCAE64B36DDE9ABF846D09F20 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				79C32437CCBC259E4763E4CF8CCA3B9A /* LYZNetworking */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		79C32437CCBC259E4763E4CF8CCA3B9A /* LYZNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				B1A4E16F26E1F65F00FC712B /* LYZApiModel.swift */,
-				B1A4E16E26E1F65F00FC712B /* LYZHttpRequestSerialization.swift */,
-				B1A4E17326E1F66000FC712B /* LYZHttpResponseSerialization.swift */,
-				B1A4E17126E1F66000FC712B /* LYZHttpSessionManager.swift */,
-				B1A4E17026E1F65F00FC712B /* LYZNetWorkingGlobalConfig.swift */,
-				B1A4E17226E1F66000FC712B /* LYZURLSessionManager.swift */,
-				23E9B373812266D76A031B13A255106B /* Pod */,
-				563A15B1B2F920205E5C82E75749A811 /* Support Files */,
-			);
-			name = LYZNetworking;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		808DF77250FF09CA55401E2992954D23 /* Pods-LYZNetworking_Tests */ = {
@@ -196,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6874748DCAE64B36DDE9ABF846D09F20 /* Development Pods */,
+				0B6E24F0EB926A2AB7B94CD15DB11810 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F7F3AED230B2A53906E9C078577574B9 /* Products */,
 				C56EA622ECC173A2D1C236C997A8F25C /* Targets Support Files */,
@@ -238,6 +222,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FA1E0AE3782957ADB3078C23C9B5BCF8 /* LYZNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				680BCC8C4F3C337AAF3250014F27A8C7 /* LYZApiModel.swift */,
+				9EDF84F46AA648141C07DC8718B18DC7 /* LYZHttpRequestSerialization.swift */,
+				D7CC3C0DA4EA2568656138242183045D /* LYZHttpResponseSerialization.swift */,
+				115994F95F6A4F12FCB55407D89E7A04 /* LYZHttpSessionManager.swift */,
+				C289AC0A5273E7EC820E7CD80C91BA7E /* LYZNetWorkingGlobalConfig.swift */,
+				750D4EAC2786750A2944D93302A09D39 /* LYZURLSessionManager.swift */,
+				4FA631074536681532EE2F65AD6BFEFF /* Pod */,
+				4444E3DEADCEF6A1D98F971A31AB7D2F /* Support Files */,
+			);
+			name = LYZNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -249,11 +249,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7721F67DBBAFD2324A13034160BF2675 /* Headers */ = {
+		A04B0E80DA1D2C9068E1D8C756B0A1DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD50F0DB693B953A6EC51C7B45CB6063 /* LYZNetworking-umbrella.h in Headers */,
+				F45E0F39EF0695C2ED797DB93155FBBC /* LYZNetworking-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E214E2359DBA06E63ED33EB5A62C5B38 /* PBXTargetDependency */,
+				8DE9B6127D8AC5499791603D0350A154 /* PBXTargetDependency */,
 			);
 			name = "Pods-LYZNetworking_Example";
 			productName = Pods_LYZNetworking_Example;
@@ -299,7 +299,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				02B8CA62301A5B7CE51DC1A73B14E86D /* PBXTargetDependency */,
+				8A3386F9DB5CA83C2D9E4641656D7821 /* PBXTargetDependency */,
 			);
 			name = "Pods-LYZNetworking_Tests";
 			productName = Pods_LYZNetworking_Tests;
@@ -308,12 +308,12 @@
 		};
 		EC4B117BCBDE62B6ADA8EFABE8DA08A8 /* LYZNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59B16ECAF3C317D4B79712960B95242C /* Build configuration list for PBXNativeTarget "LYZNetworking" */;
+			buildConfigurationList = 9CF54EBF0E062CEAB0F64DD0A1540064 /* Build configuration list for PBXNativeTarget "LYZNetworking" */;
 			buildPhases = (
-				7721F67DBBAFD2324A13034160BF2675 /* Headers */,
-				78131F62C3E778E2F3C288FA58FE4609 /* Sources */,
-				F205B56EA714DF112157A68BDED09F47 /* Frameworks */,
-				5D644322FF1B6408A391D5DE7DACF678 /* Resources */,
+				A04B0E80DA1D2C9068E1D8C756B0A1DF /* Headers */,
+				F9DE4FBB3BCDB98D735BCC7A48F5434C /* Sources */,
+				19064EFCA264D89D6CCF844D51A213C8 /* Frameworks */,
+				DC631E7B85258F9C45CFC6A9A3F86F6E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -361,14 +361,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D644322FF1B6408A391D5DE7DACF678 /* Resources */ = {
+		77B912D5310F95FD108042B5D68B8917 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77B912D5310F95FD108042B5D68B8917 /* Resources */ = {
+		DC631E7B85258F9C45CFC6A9A3F86F6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,42 +394,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78131F62C3E778E2F3C288FA58FE4609 /* Sources */ = {
+		F9DE4FBB3BCDB98D735BCC7A48F5434C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1A4E17726E1F66000FC712B /* LYZHttpSessionManager.swift in Sources */,
-				CAF4E4AE119BDE4DFCA882AAAAF3E8A3 /* LYZNetworking-dummy.m in Sources */,
-				B1A4E17826E1F66000FC712B /* LYZURLSessionManager.swift in Sources */,
-				B1A4E17526E1F66000FC712B /* LYZApiModel.swift in Sources */,
-				B1A4E17926E1F66000FC712B /* LYZHttpResponseSerialization.swift in Sources */,
-				B1A4E17426E1F66000FC712B /* LYZHttpRequestSerialization.swift in Sources */,
-				B1A4E17626E1F66000FC712B /* LYZNetWorkingGlobalConfig.swift in Sources */,
+				14F03F2E47AB35960AAB2FC506980C5B /* LYZApiModel.swift in Sources */,
+				89D01357FF21B531D6759D64C24A6C3E /* LYZHttpRequestSerialization.swift in Sources */,
+				767BF076F300F928CB3760114738074E /* LYZHttpResponseSerialization.swift in Sources */,
+				B5DDBC9304B1D19BF9C0E75F06AFBE9C /* LYZHttpSessionManager.swift in Sources */,
+				17D099A175604FF0BF12EC1C99AA6EE6 /* LYZNetworking-dummy.m in Sources */,
+				ABD9BDB968600EC9DA0B7B2114706527 /* LYZNetWorkingGlobalConfig.swift in Sources */,
+				2B14AB1D9EF9A0B42598CDA24416BA0A /* LYZURLSessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02B8CA62301A5B7CE51DC1A73B14E86D /* PBXTargetDependency */ = {
+		8A3386F9DB5CA83C2D9E4641656D7821 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LYZNetworking_Example";
 			target = 139893BBCC6E0314133FA58BE2E5C27C /* Pods-LYZNetworking_Example */;
-			targetProxy = CA911D276E4DDD3196E33A4A526BAA1A /* PBXContainerItemProxy */;
+			targetProxy = C826C2A164F792411E53CC6424D386BD /* PBXContainerItemProxy */;
 		};
-		E214E2359DBA06E63ED33EB5A62C5B38 /* PBXTargetDependency */ = {
+		8DE9B6127D8AC5499791603D0350A154 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LYZNetworking;
 			target = EC4B117BCBDE62B6ADA8EFABE8DA08A8 /* LYZNetworking */;
-			targetProxy = A1AAFB5D38890B0A6DA0475848CDA698 /* PBXContainerItemProxy */;
+			targetProxy = 2725C72C8E293BD545AE8CC16FA5F787 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02E55C9610A0FAB41A8362B5AC3A792B /* Release */ = {
+		0489D8399FB0F057932035AE1210690D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291A9BC440789D96177B519084A066AE /* LYZNetworking.release.xcconfig */;
+			baseConfigurationReference = CF7502DB633BD06F5A4E21F4C512146F /* LYZNetworking.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -441,7 +442,38 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LYZNetworking/LYZNetworking-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LYZNetworking/LYZNetworking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYZNetworking/LYZNetworking.modulemap";
+				PRODUCT_MODULE_NAME = LYZNetworking;
+				PRODUCT_NAME = LYZNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06F07595128CA9620007A0A93CC90A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC89B6B52BECD4325590CE67F4C3E09 /* LYZNetworking.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYZNetworking/LYZNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYZNetworking/LYZNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LYZNetworking/LYZNetworking.modulemap";
 				PRODUCT_MODULE_NAME = LYZNetworking;
@@ -653,36 +685,6 @@
 			};
 			name = Debug;
 		};
-		8D5309192E28BDC0EC6C1E6BF36E3477 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6595B7520ECC1FEE0CED5266BA6B1 /* LYZNetworking.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYZNetworking/LYZNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYZNetworking/LYZNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LYZNetworking/LYZNetworking.modulemap";
-				PRODUCT_MODULE_NAME = LYZNetworking;
-				PRODUCT_NAME = LYZNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -738,7 +740,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -756,11 +759,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59B16ECAF3C317D4B79712960B95242C /* Build configuration list for PBXNativeTarget "LYZNetworking" */ = {
+		9CF54EBF0E062CEAB0F64DD0A1540064 /* Build configuration list for PBXNativeTarget "LYZNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D5309192E28BDC0EC6C1E6BF36E3477 /* Debug */,
-				02E55C9610A0FAB41A8362B5AC3A792B /* Release */,
+				0489D8399FB0F057932035AE1210690D /* Debug */,
+				06F07595128CA9620007A0A93CC90A69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
