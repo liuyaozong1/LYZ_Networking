@@ -34,6 +34,8 @@ TODO: Add long description of the pod here.
   
   s.swift_version = '5.0'
   
+  s.platform =  :ios
+  
   # s.resource_bundles = {
   #   'LYZNetworking' => ['LYZNetworking/Assets/*.png']
   # }

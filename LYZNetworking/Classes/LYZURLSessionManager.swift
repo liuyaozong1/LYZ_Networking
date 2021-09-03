@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class LYZURLSessionManager: NSObject {
+public class LYZURLSessionManager: NSObject, URLSessionDelegate {
     ///网络请求会话
     public var session: URLSession?
     ///网络请求地址
@@ -30,7 +30,7 @@ public class LYZURLSessionManager: NSObject {
         operationQueue.maxConcurrentOperationCount = 1
         
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: OperationQueue.main)
-      
+        
         
     }
     
@@ -78,16 +78,14 @@ public class LYZURLSessionManager: NSObject {
 //
 //
 //}
-
-extension LYZURLSessionManager: URLSessionTaskDelegate {
-    public  func urlSession(_ session: URLSession, task: URLSessionTask, didSendBodyData bytesSent: Int64, totalBytesSent: Int64, totalBytesExpectedToSend: Int64) {
-        print("输出了-----4")
-    }
-    
-//    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?)
-    
-  public  func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
-        print("输出了-----5")
-    }
-  
-}
+//
+//extension LYZURLSessionManager: URLSessionTaskDelegate {
+//    public func urlSession(_ session: URLSession, task: URLSessionTask, didSendBodyData bytesSent: Int64, totalBytesSent: Int64, totalBytesExpectedToSend: Int64) {
+//        print("输出了-----4")
+//    }
+//
+//    public func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
+//        print("输出了-----5")
+//    }
+//
+//}
