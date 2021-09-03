@@ -80,13 +80,13 @@ public class LYZURLSessionManager: NSObject {
 //}
 
 extension LYZURLSessionManager: URLSessionTaskDelegate {
-    func urlSession(_ session: URLSession, task: URLSessionTask, didSendBodyData bytesSent: Int64, totalBytesSent: Int64, totalBytesExpectedToSend: Int64) {
+    public  func urlSession(_ session: URLSession, task: URLSessionTask, didSendBodyData bytesSent: Int64, totalBytesSent: Int64, totalBytesExpectedToSend: Int64) {
         print("输出了-----4")
     }
     
 //    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?)
     
-    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
+  public  func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
         print("输出了-----5")
     }
   
