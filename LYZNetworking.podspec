@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYZNetworking'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'LYZNetworking 是一款简单易用的网络框架, 支持 get, post, 配置简单, 稳定可靠'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LYZNetworking/Classes/**/*'
   
-  #s..swift-version = '5.0'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'LYZNetworking' => ['LYZNetworking/Assets/*.png']
