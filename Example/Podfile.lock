@@ -1,0 +1,16 @@
+PODS:
+  - LYZNetworking (0.1.0)
+
+DEPENDENCIES:
+  - LYZNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  LYZNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYZNetworking: 6c8cf5ef4bec6ab45ef343b7caeeb7833906eceb
+
+PODFILE CHECKSUM: 4aed37fadd7ccfae92acb331af7f3c631de2206f
+
+COCOAPODS: 1.11.0.rc.1
