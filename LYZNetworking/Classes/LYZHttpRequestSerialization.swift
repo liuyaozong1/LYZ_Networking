@@ -66,7 +66,6 @@ public class LYZHttpRequestSerialization: NSObject {
             print("url 不合法")
             return nil
         }
-        
         //创建请求
         let request = NSMutableURLRequest(url: lasturl, cachePolicy: cachePolicy, timeoutInterval: requestTimeOut)
         request.httpMethod = apiModel.apiMethod.desc

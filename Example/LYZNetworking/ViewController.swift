@@ -14,20 +14,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let dic = [
-            "type" : "",
-            "page" : "",
-            "page_size" : "",
-            "is_filter" : "",
-            "key" : "0b35bec413d59aab9f7a5abcbccb21ab"
-        ]
+        let dic = ["title":"234","name":"123",
+                   ] as [String : Any]
         
         view.backgroundColor = .red
         //设置响应数据的格式
-        LYZNetWorkingGlobalConfig.shared.responseSerializer = .data
+        LYZNetWorkingGlobalConfig.shared.responseSerializer = .json
         LYZNetWorkingGlobalConfig.shared.requestTimeOut = 15
+        LYZNetWorkingGlobalConfig.shared.apiDomain = "https://mock.mengxuegu.com/mock/6135aefc5c91b95c0946d13c/test/"
         //创建接口模型
-        let model = LYZApiModel(apiUrl: "http://v.juhe.cn/toutiao/index", apiMethod: .post, apiName: "网易新闻", apiDesc: "网易新闻的简介",isBody: false)
+        let model = LYZApiModel(apiUrl: "getApi", apiMethod: .get, apiName: "网易新闻", apiDesc: "网易新闻的简介",isBody: false)
         //调用接口
         LYZHttpSessionManager.manager.load(apiModel: model, parameters: dic)
     }

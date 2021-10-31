@@ -30,7 +30,10 @@ public class LYZNetWorkingGlobalConfig: NSObject {
     }
     
     public enum LYZHTTPResponse {
-       case data, json,xml
+        case data  //二进制元数据
+        case string  //字符串
+        case json //转成 json
+        case xml //xml 解析
     }
     
     public static let shared = LYZNetWorkingGlobalConfig()
@@ -52,10 +55,11 @@ public class LYZNetWorkingGlobalConfig: NSObject {
     **NSURLRequestReloadRevalidatingCacheData = 5：**从原始地址确认缓存数据的合法性后，缓存数据就可以使用，否则从原始地址加载（在使用前去服务器验证）。**/
     ///全局缓存 策略
     public var cachePolicy: NSURLRequest.CachePolicy = .useProtocolCachePolicy //默认的缓存策略
-    
     ///会话配置
     public var Configuration = URLSessionConfiguration.default  //默认配置 默认的URL会话配置对象，其存储方式是基于硬盘的持久化存储方式，会保存用户的证书到钥匙串中
     ///全局 header
+    /// request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+    /// request.setValue("application/json, */*", forHTTPHeaderField: "Accept")
     public var headers: [String : String]?
     ///解析模式
     public var responseSerializer: LYZHTTPResponse = .data

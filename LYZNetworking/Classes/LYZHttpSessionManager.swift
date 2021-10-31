@@ -19,6 +19,7 @@ public extension LYZHttpSessionManager {
         
         //发起请求
         print("<------接口\(apiModel.apiName)开始请求------->")
+        print("请求地址是\n\n\(request.url?.absoluteString)\n\n")
         print("httpHeaders:\n\n\(request.allHTTPHeaderFields ?? [:])\n\n")
         print("参数是:\n\n\(parameters)\n\n")
         
