@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYZNetworking'
-  s.version          = '0.0.5'
-  s.summary          = 'LYZNetworking 是一款简单易用的网络框架, 支持 get, post, 配置简单, 稳定可靠'
+  s.version          = '0.0.6'
+  s.summary          = 'LYZNetworking 是一款简单易用的网络框架, 支持 get, post, 配置简单, 稳定可靠.关注后请 star'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,6 +39,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'LYZNetworking' => ['LYZNetworking/Assets/*.png']
   # }
+#  /Users/liuyaozong/LYZNetworkingSpec/LYZ_Networking/LYZNetworking/Classes/LYZApiModel.swift
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
