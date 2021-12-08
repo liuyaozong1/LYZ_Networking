@@ -34,5 +34,16 @@ LYZNetworking is available under the MIT license. See the LICENSE file for more 
   //创建接口模型
   let model = LYZApiModel(apiUrl: "http://v.juhe.cn/toutiao/index", apiMethod: .post, apiName: "网易新闻", apiDesc: "网易新闻的简介",isBody: false)
   //调用接口
-  LYZHttpSessionManager.manager.load(apiModel: model, parameters: dic)
+  //设置响应数据的格式
+  LYZNetWorkingGlobalConfig.shared.responseSerializer = .data
+  LYZNetWorkingGlobalConfig.shared.requestTimeOut = 15
+  //创建接口模型
+  let model = LYZApiModel(apiUrl: "http://v.juhe.cn/toutiao/index", apiMethod: .post, apiName: "网易新闻", apiDesc: "网易新闻的简介",isBody: false)
+  //调用接口
+  LYZHttpSessionManager.manager.load(apiModel: model, parameters: dic) { result in
+            
+        } failure: { error in
+            
+        }
+
 ```
