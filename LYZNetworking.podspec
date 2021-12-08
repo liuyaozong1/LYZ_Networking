@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYZNetworking'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'LYZNetworking 是一款简单易用的网络框架, 支持 get, post, 配置简单, 稳定可靠.关注后请 star'
 
 # This description is used to generate tags and improve search results.

@@ -7,12 +7,16 @@
 
 import UIKit
 
+public typealias successBlock = (Any) -> Void
+public typealias failureBlock = (Error) -> Void
+
+
 public class LYZHttpSessionManager: LYZURLSessionManager {
     public  static let manager = LYZHttpSessionManager()
 }
 //请求方法的配置
 public extension LYZHttpSessionManager {
-    public func load(apiModel: LYZApiModel,parameters: Any) {
+    public func load(apiModel: LYZApiModel,parameters: Any,success:@escaping successBlock, failure:@escaping failureBlock) {
         guard let  request = globalConfiguration.requestSerialization.requestWithModel(apiModel: apiModel, parameters: parameters) else {
             return
         }
@@ -29,9 +33,11 @@ public extension LYZHttpSessionManager {
                 if LYZNetWorkingGlobalConfig.shared.responseSerializer == .data {
                     let str = String(data: _data, encoding: .utf8)
                     print("返回的数据是----\n\n\(String(describing: str))\n")
+                    success(_data)
                 } else if LYZNetWorkingGlobalConfig.shared.responseSerializer == .json {
                       let json =  try? JSONSerialization.jsonObject(with: _data, options: .allowFragments)
                        print("返回的json数据是----\n\n\(String(describing: json))\n")
+                      success(json)
                     
                 } else if LYZNetWorkingGlobalConfig.shared.responseSerializer == .xml {
                     

@@ -11,7 +11,7 @@ public class LYZNetWorkingGlobalConfig: NSObject {
     
     public enum LYZHTTPMethod {
        /// Common HTTP methods.
-       case get, post
+       case get, post, put,delete,head
     
         var desc: String {
             switch self {
@@ -19,10 +19,12 @@ public class LYZNetWorkingGlobalConfig: NSObject {
                 return "GET"
             case .post:
                 return "POST"
-//            case .put:
-//                return "PUT"
-//            case .delete:
-//                return "DELETE"
+            case .put:
+                return "PUT"
+            case .delete:
+                return "DELETE"
+            case .head:
+                return "HEAD"
             default:
                 return ""
             }

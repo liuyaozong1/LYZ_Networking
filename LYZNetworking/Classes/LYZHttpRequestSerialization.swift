@@ -54,7 +54,7 @@ public class LYZHttpRequestSerialization: NSObject {
         serializationParam(value: parameters)
         
         var _: String?
-        if parameters != nil && apiModel.apiMethod == .get {
+        if parameters != nil && (apiModel.apiMethod == .get || apiModel.apiMethod == .delete || apiModel.apiMethod == .head) {
             if let _ = url.query {
                 urlstr.append("&\(requestParamUrlStr)")
             } else {
@@ -71,7 +71,10 @@ public class LYZHttpRequestSerialization: NSObject {
         request.httpMethod = apiModel.apiMethod.desc
         request.allHTTPHeaderFields = headers
         
-        if apiModel.apiMethod == .post {
+        if apiModel.apiMethod == .post || apiModel.apiMethod == .put || apiModel.apiMethod == .put {
+            if (request.value(forHTTPHeaderField: "Content-Type") == nil) {
+                request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+            }
             request.httpBody = requestParamUrlStr.data(using: .utf8)
         }
         
