@@ -42,8 +42,8 @@ LYZNetworking is available under the MIT license. See the LICENSE file for more 
   //调用接口
   LYZHttpSessionManager.manager.load(apiModel: model, parameters: dic) { result in
             
-        } failure: { error in
+  } failure: { error in
             
-        }
+  }
 
 ```
