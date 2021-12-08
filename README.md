@@ -27,6 +27,8 @@ pod 'LYZNetworking'
 ## License
 
 LYZNetworking is available under the MIT license. See the LICENSE file for more info.
+本框架优点:
+十分灵活, 可全局设置配置, 也可为单个接口单独设置配置.  框架轻, 简单易用!
 ```
 //设置响应数据的格式
   LYZNetWorkingGlobalConfig.shared.responseSerializer = .data
