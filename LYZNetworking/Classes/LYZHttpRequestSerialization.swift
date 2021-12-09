@@ -125,7 +125,6 @@ public class LYZHttpRequestSerialization: NSObject {
         }
 
         let str = list.joined(separator: "&")
-        print("list ---\(str)")
         requestParamUrlStr = str
 
     }

@@ -21,13 +21,15 @@ public extension LYZHttpSessionManager {
             return
         }
         
-        //发起请求
-        print("<------接口\(apiModel.apiName)开始请求------->")
-        print("请求地址是\n\n\(request.url?.absoluteString)\n\n")
-        print("httpHeaders:\n\n\(request.allHTTPHeaderFields ?? [:])\n\n")
-        print("参数是:\n\n\(parameters)\n\n")
+       
         
         session?.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
+            //发起请求
+            print("<------接口\(apiModel.apiName)开始请求------->")
+            print("请求地址是\n\n\(request.url?.absoluteString)\n\n")
+            print("httpHeaders:\n\n\(request.allHTTPHeaderFields ?? [:])\n\n")
+            print("参数是:\n\n\(parameters)\n\n")
+            print("请求方法是:\n\n\(request.httpMethod)\n\n")
             if   (error == nil), let _data = data {
                 
                 if LYZNetWorkingGlobalConfig.shared.responseSerializer == .data {
