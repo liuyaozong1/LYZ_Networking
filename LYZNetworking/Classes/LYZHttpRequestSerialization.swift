@@ -54,7 +54,7 @@ public class LYZHttpRequestSerialization: NSObject {
         serializationParam(value: parameters)
         
         var _: String?
-        if parameters != nil && (apiModel.apiMethod == .get || apiModel.apiMethod == .delete || apiModel.apiMethod == .head) {
+        if parameters != nil && (apiModel.apiMethod == .get || apiModel.apiMethod == .delete || apiModel.apiMethod == .head ) {
             if let _ = url.query {
                 urlstr.append("&\(requestParamUrlStr)")
             } else {

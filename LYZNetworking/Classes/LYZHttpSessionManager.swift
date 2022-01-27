@@ -26,19 +26,19 @@ public extension LYZHttpSessionManager {
         session?.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
             //发起请求
             print("<------接口\(apiModel.apiName)开始请求------->")
-            print("请求地址是\n\n\(request.url?.absoluteString)\n\n")
-            print("httpHeaders:\n\n\(request.allHTTPHeaderFields ?? [:])\n\n")
-            print("参数是:\n\n\(parameters)\n\n")
-            print("请求方法是:\n\n\(request.httpMethod)\n\n")
+            print("请求地址是:\(request.url?.absoluteString)\n")
+            print("httpHeaders:\(request.allHTTPHeaderFields ?? [:])\n")
+            print("参数是:\(parameters)\n")
+            print("请求方法是:\(request.httpMethod)\n")
             if   (error == nil), let _data = data {
                 
                 if LYZNetWorkingGlobalConfig.shared.responseSerializer == .data {
                     let str = String(data: _data, encoding: .utf8)
-                    print("返回的数据是----\n\n\(String(describing: str))\n")
+                    print("返回的数据是----\n\(String(describing: str))\n")
                     success(_data)
                 } else if LYZNetWorkingGlobalConfig.shared.responseSerializer == .json {
                       let json =  try? JSONSerialization.jsonObject(with: _data, options: .allowFragments)
-                       print("返回的json数据是----\n\n\(String(describing: json))\n")
+                       print("返回的json数据是----\n\(String(describing: json))\n")
                       success(json)
                     
                 } else if LYZNetWorkingGlobalConfig.shared.responseSerializer == .xml {
